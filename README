@@ -1,0 +1,11 @@
+Installing:
+
+1. clone this repo
+2. open Chrome
+3. go to Chrome Settings > Extensions
+4. enable Developer mode
+5. click Load unpacked
+6. select this repo’s directory
+7. go to any YouTube video
+8. click the Extensions button in Chrome’s toolbar
+9. select NoteTube
