@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "NoteTube",
+	"description": "Generate a transcript and lecture notes from any YouTube video.",
+	"version": "0.0.2",
+	"action": {
+		"default_title": "NoteTube",
+		"default_popup": "popup.html"
+	},
+	"permissions": [],
+	"host_permissions": [
+		"*://*/*"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [],
+	"content_scripts": [{
+		"js": ["foreground.js"],
+		"matches": ["https://www.youtube.com/*", "https://youtube.com/*"]
+	}]
+}
