@@ -24,7 +24,7 @@ function fire() {
 			command: "notetube:generate",
 		}).then((response) => {
 			if (response == true) {
-				document.getElementById("message").innerHTML = "Thanks for using NoteTube!"
+				document.getElementById("message").innerHTML = "NoteTube is now generating your notes."
 			}
 		});
 	});
