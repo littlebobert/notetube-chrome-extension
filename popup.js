@@ -11,10 +11,10 @@ getActiveTab().then((tabs) => {
 		if (response == true) {
 			document.getElementById("button").addEventListener("click", fire);
 		} else {
-			document.getElementById("message").innerHTML = "NoteTube only works on YouTube videos."
+			document.getElementById("message").innerHTML = "NoteTube only works on YouTube videos"
 		}
 	}).catch((error) => {
-		document.getElementById("message").innerHTML = "NoteTube only works on YouTube videos."
+		document.getElementById("message").innerHTML = "NoteTube only works on YouTube videos"
 	});
 });
 
@@ -24,7 +24,7 @@ function fire() {
 			command: "notetube:generate",
 		}).then((response) => {
 			if (response == true) {
-				document.getElementById("message").innerHTML = "NoteTube is now generating your notes."
+				document.getElementById("message").innerHTML = "NoteTube is now generating your notes"
 			}
 		});
 	});
